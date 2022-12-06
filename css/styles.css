@@ -114,3 +114,7 @@ footer {
 .telefono_empresa {
     color: var(--white-opacity);
 }
+
+.fa-brands{
+    color: var(--white);
+}
