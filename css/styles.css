@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https: //fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+
+:root {
+    --hover-color: #2196f3;
+    --text-color: #212121;
+    --text-description: #757575;
+    --banner-color: #2f303a;
+    --white: #ffffff;
+    --white-opacity: #ffffff99;
+}
+
+body {
+    --text-color: #212121;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* header */
+
+.logo {
+    color: var(--hover-color);
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.navbar_menu .page:hover,
+.navbar_menu .page:focus,
+.navbar_menu .page.current,
+.lista_contacto .item:hover,
+.lista_contacto .item:focus {
+    color: var(--hover-color);
+}
+
+.navbar_menu li,
+.lista_contacto li {
+    font-weight: 500;
+    line-height: 1;
+}
+
+.navbar_menu li a {
+    color: var(--text-color);
+}
+
+.lista_contacto li a {
+    color: var(--text-description);
+}
+
+.lista_botones button,
+.btn_solicitar {
+    cursor: pointer;
+}
+
+.filtros .lista_botones li button:hover,
+.filtros .lista_botones li button.current {
+    color: var(--white);
+    background-color: var(--hover-color);
+}
+
+.banner {
+    background-color: var(--banner-color);
+}
+
+.banner_title {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--white);
+}
+
+.btn_solicitar {
+    background-color: var(--hover-color);
+    color: var(--white);
+}
+
+/* body */
+
+.descripcion_caracteristicas,
+.trabajo {
+    color: var(--text-description);
+}
+
+/* footer  */
+
+footer {
+    background-color: var(--text-color);
+}
+
+.info_empresa p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.direccion_empresa,
+.descripcion_redes {
+    color: var(--white);
+}
+
+.correo_empresa,
+.telefono_empresa {
+    color: var(--white-opacity);
+}
